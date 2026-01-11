@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vanguard Motors Agency | Wealth in Motion</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&amp;family=Inter:wght@300;400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#eca413",
+              "background-light": "#f8f7f6",
+              "background-dark": "#0a0a0a", // Obsidian Matte
+              "platinum": "#e5e5e5",
+            },
+            fontFamily: {
+              "display": ["Inter", "sans-serif"],
+              "serif": ["Cormorant Garamond", "serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .bg-obsidian { background-color: #0a0a0a; }
+        .text-platinum { color: #e5e5e5; }
+        .border-gold { border-color: #eca413; }
+        .subterranean-gradient {
+            background: linear-gradient(180deg, rgba(10,10,10,0.7) 0%, rgba(10,10,10,1) 100%);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200 antialiased overflow-x-hidden">
+<!-- TopNavBar -->
+<div class="relative flex h-auto w-full flex-col">
+<div class="layout-container flex h-full grow flex-col">
+<div class="w-full flex justify-center py-0 fixed top-0 z-50 bg-background-dark/80 backdrop-blur-md border-b border-white/5">
+<div class="layout-content-container flex flex-col w-full max-w-[1200px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="size-8 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 30.5736C16.7203 29.8826 20.2244 29.4783 24 29.4783C27.7756 29.4783 31.2797 29.8826 34.1739 30.5736C36.9144 31.2278 39.9967 32.7669 41.3563 33.8352L24.8486 7.36089C24.4571 6.73303 23.5429 6.73303 23.1514 7.36089L6.64374 33.8352C8.00331 32.7669 11.0856 31.2278 13.8261 30.5736Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 35.764C39.9944 35.7463 39.9875 35.7155 39.9748 35.6706C39.9436 35.5601 39.8949 35.4259 39.8346 35.2825C39.8168 35.2403 39.7989 35.1993 39.7813 35.1602C38.5103 34.2887 35.9788 33.0607 33.7095 32.5189C30.9875 31.8691 27.6413 31.4783 24 31.4783C20.3587 31.4783 17.0125 31.8691 14.2905 32.5189C12.0012 33.0654 9.44505 34.3104 8.18538 35.1832C8.17384 35.2075 8.16216 35.233 8.15052 35.2592C8.09919 35.3751 8.05721 35.4886 8.02977 35.589C8.00356 35.6848 8.00039 35.7333 8.00004 35.7388C8.00004 35.739 8 35.7393 8.00004 35.7388C8.00004 35.7641 8.0104 36.0767 8.68485 36.6314C9.34546 37.1746 10.4222 37.7531 11.9291 38.2772C14.9242 39.319 19.1919 40 24 40C28.8081 40 33.0758 39.319 36.0709 38.2772C37.5778 37.7531 38.6545 37.1746 39.3151 36.6314C39.9006 36.1499 39.9857 35.8511 39.998 35.764ZM4.95178 32.7688L21.4543 6.30267C22.6288 4.4191 25.3712 4.41909 26.5457 6.30267L43.0534 32.777C43.0709 32.8052 43.0878 32.8338 43.104 32.8629L41.3563 33.8352C43.104 32.8629 43.1038 32.8626 43.104 32.8629L43.1051 32.865L43.1065 32.8675L43.1101 32.8739L43.1199 32.8918C43.1276 32.906 43.1377 32.9246 43.1497 32.9473C43.1738 32.9925 43.2062 33.0545 43.244 33.1299C43.319 33.2792 43.4196 33.489 43.5217 33.7317C43.6901 34.1321 44 34.9311 44 35.7391C44 37.4427 43.003 38.7775 41.8558 39.7209C40.6947 40.6757 39.1354 41.4464 37.385 42.0552C33.8654 43.2794 29.133 44 24 44C18.867 44 14.1346 43.2794 10.615 42.0552C8.86463 41.4464 7.30529 40.6757 6.14419 39.7209C4.99695 38.7775 3.99999 37.4427 3.99999 35.7391C3.99999 34.8725 4.29264 34.0922 4.49321 33.6393C4.60375 33.3898 4.71348 33.1804 4.79687 33.0311C4.83898 32.9556 4.87547 32.8935 4.9035 32.8471C4.91754 32.8238 4.92954 32.8043 4.93916 32.7889L4.94662 32.777L4.95178 32.7688ZM35.9868 29.004L24 9.77997L12.0131 29.004C12.4661 28.8609 12.9179 28.7342 13.3617 28.6282C16.4281 27.8961 20.0901 27.4783 24 27.4783C27.9099 27.4783 31.5719 27.8961 34.6383 28.6282C35.082 28.7342 35.5339 28.8609 35.9868 29.004Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-white text-xl font-semibold leading-tight tracking-tight font-serif uppercase tracking-[0.1em]">Vanguard Motors</h2>
+</div>
+<div class="flex flex-1 justify-end gap-10 items-center">
+<div class="hidden md:flex items-center gap-10">
+<a class="text-platinum/70 hover:text-primary text-sm font-medium transition-colors" href="#philosophy">Philosophy</a>
+<a class="text-platinum/70 hover:text-primary text-sm font-medium transition-colors" href="#ecosystem">Ecosystem</a>
+<a class="text-platinum/70 hover:text-primary text-sm font-medium transition-colors" href="#vault">The Vault</a>
+</div>
+<button class="flex min-w-[140px] cursor-pointer items-center justify-center overflow-hidden rounded-md h-10 px-6 bg-primary text-background-dark text-xs font-bold uppercase tracking-widest hover:bg-primary/90 transition-all">
+<span>Request Access</span>
+</button>
+</div>
+</header>
+</div>
+</div>
+</div>
+</div>
+<!-- HeroSection -->
+<div class="relative flex min-h-screen w-full flex-col">
+<div class="flex-1 flex justify-center items-center">
+<div class="w-full h-screen absolute inset-0">
+<div class="absolute inset-0 bg-black/40 z-10"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent z-10"></div>
+<img class="w-full h-full object-cover grayscale-[0.2]" data-alt="Cinematic shot of a luxury Bugatti in a Swiss mountain vault" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWFprreBlw2QlbrFRcVg3_s20R_K28tz5Kp8RZFnW2jwWi1hAvBzCxfo_GhxHD7aDHfzWXaGK6VTErNt9PWHyMCA2IBIJGaSBPAL0KKg7VEqN6kSVuQ0vPoLSCJKhONeIYP6oeB5DjNh0ilzNHreoGMqDwoTXgqEMFxc1hCDOGkE1Fu5gw_yRUGAK2IDK6hNo0Hdq9vIJeGSCN6NPD2PV37uK8MuvLHJY649RrD8rGFEf3tZPk8DH6t-UdUV010imA8EK--vno98Ko"/>
+</div>
+<div class="relative z-20 text-center px-4 max-w-[960px] animate-in fade-in slide-in-from-bottom-10 duration-1000">
+<h1 class="text-platinum text-6xl md:text-8xl font-serif font-semibold leading-tight tracking-tight mb-6">
+                    Wealth in <span class="text-primary italic">Motion</span>
+</h1>
+<p class="text-platinum/80 text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto mb-10">
+                    Elite automotive asset management tailored for the modern family office. We transform passion into high-performance alpha.
+                </p>
+<div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+<button class="flex min-w-[200px] cursor-pointer items-center justify-center overflow-hidden rounded-md h-14 px-8 bg-primary text-background-dark text-sm font-bold uppercase tracking-widest hover:scale-105 transition-all">
+                        Request Private Access
+                    </button>
+<button class="flex min-w-[200px] cursor-pointer items-center justify-center overflow-hidden rounded-md h-14 px-8 border border-platinum/30 text-platinum text-sm font-bold uppercase tracking-widest hover:bg-white/5 transition-all">
+                        View Portfolio
+                    </button>
+</div>
+</div>
+</div>
+</div>
+<!-- FeatureSection (Philosophy) -->
+<div class="relative bg-background-dark py-24 md:py-32" id="philosophy">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="flex flex-col md:flex-row gap-16 items-start">
+<div class="flex-1 flex flex-col gap-8">
+<h2 class="text-primary font-bold uppercase tracking-[0.3em] text-xs">The Philosophy</h2>
+<h1 class="text-platinum text-4xl md:text-5xl font-serif leading-tight">
+                        Moving beyond passion into the <span class="italic">realm of Alpha.</span>
+</h1>
+<p class="text-platinum/60 text-lg leading-relaxed">
+                        We treat automotive collections as sophisticated alternative assets. In an era of market volatility, rare hyper-cars represent a unique asset class that offers tangible value, historical permanence, and institutional-grade appreciation potential.
+                    </p>
+</div>
+<div class="flex-1 grid grid-cols-1 gap-6 w-full">
+<div class="group flex gap-6 rounded-lg border border-white/5 bg-white/[0.02] p-8 transition-all hover:bg-white/[0.04]">
+<div class="text-primary mt-1">
+<span class="material-symbols-outlined !text-4xl">trending_up</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-platinum text-xl font-serif font-bold italic">Alpha Generation</h3>
+<p class="text-platinum/50 text-sm leading-relaxed">Identifying vehicles with significant appreciation potential through proprietary data and global networks.</p>
+</div>
+</div>
+<div class="group flex gap-6 rounded-lg border border-white/5 bg-white/[0.02] p-8 transition-all hover:bg-white/[0.04]">
+<div class="text-primary mt-1">
+<span class="material-symbols-outlined !text-4xl">verified_user</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-platinum text-xl font-serif font-bold italic">Institutional Oversight</h3>
+<p class="text-platinum/50 text-sm leading-relaxed">White-glove portfolio management with the precision and reporting of a dedicated family office.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- SectionHeader -->
+<div class="bg-background-dark pt-20" id="ecosystem">
+<div class="max-w-[1200px] mx-auto px-6 text-center">
+<h2 class="text-platinum text-3xl md:text-4xl font-serif italic mb-2">Strategic Ecosystem</h2>
+<div class="h-px w-20 bg-primary mx-auto mb-16 opacity-50"></div>
+</div>
+</div>
+<!-- TextGrid (Ecosystem) -->
+<div class="bg-background-dark pb-24">
+<div class="max-w-[1200px] mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="flex flex-col gap-6 rounded-lg border border-white/5 bg-white/[0.02] p-10 items-center text-center">
+<div class="text-primary bg-primary/10 size-16 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined !text-3xl">handshake</span>
+</div>
+<div class="flex flex-col gap-3">
+<h2 class="text-platinum text-2xl font-serif font-bold">Acquisition</h2>
+<p class="text-platinum/50 text-sm leading-relaxed">Sourcing the unobtainable through off-market global networks and private provenance verifications.</p>
+</div>
+</div>
+<div class="flex flex-col gap-6 rounded-lg border border-primary/20 bg-white/[0.03] p-10 items-center text-center shadow-[0_0_40px_rgba(236,164,19,0.05)]">
+<div class="text-primary bg-primary/10 size-16 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined !text-3xl">public</span>
+</div>
+<div class="flex flex-col gap-3">
+<h2 class="text-platinum text-2xl font-serif font-bold">Logistics</h2>
+<p class="text-platinum/50 text-sm leading-relaxed">White-glove global transport and Swiss-standard subterranean, climate-controlled storage vaults.</p>
+</div>
+</div>
+<div class="flex flex-col gap-6 rounded-lg border border-white/5 bg-white/[0.02] p-10 items-center text-center">
+<div class="text-primary bg-primary/10 size-16 rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined !text-3xl">query_stats</span>
+</div>
+<div class="flex flex-col gap-3">
+<h2 class="text-platinum text-2xl font-serif font-bold">Finance</h2>
+<p class="text-platinum/50 text-sm leading-relaxed">Liquidity solutions, title management, and real-time portfolio appraisal for tax and estate planning.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Vault Section -->
+<div class="bg-background-dark py-24 relative overflow-hidden" id="vault">
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent opacity-50"></div>
+<div class="max-w-[1200px] mx-auto px-6 relative z-10">
+<div class="flex justify-between items-end mb-12">
+<div>
+<h2 class="text-primary font-bold uppercase tracking-[0.3em] text-xs mb-4">Inventory</h2>
+<h3 class="text-platinum text-4xl font-serif italic">The Subterranean Vault</h3>
+</div>
+<a class="text-primary text-xs uppercase tracking-widest font-bold flex items-center gap-2 hover:gap-4 transition-all" href="#">
+                    Full Catalog <span class="material-symbols-outlined !text-lg">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Item 1 -->
+<div class="group relative overflow-hidden rounded-lg bg-white/[0.02] border border-white/5">
+<div class="aspect-[4/5] relative">
+<img class="w-full h-full object-cover grayscale transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0" data-alt="Modern hypercar in low-light studio setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxfI0j_YLDE6W0WhW--8JdrLFBC54RFJj6OQYEDu1THaPL05TWnkB5Q4qAhhFZpGcj0VwlwzCoBCLEbyZOnC9i-N_i5PWTo7J79bjuqZ8fM6cEsb1k7kIt4OBmePUNQDHX-Ts650gjMicSTOXyfwiywjb5MBe_ueU0cX7RxwEwcf0SLUEGH-fbGYyp9eiRUYBVRgSTYG-oFw8dD6crcOZKdEtM04GS-c4x7mVAi2S2uPhCAba060S5KsbDcTN3tDcLZ5_Gy-Dvqw0g"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent"></div>
+<div class="absolute top-4 left-4">
+<span class="bg-primary/20 backdrop-blur-md border border-primary/50 text-primary text-[10px] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded">
+                                [Negotiation]
+                            </span>
+</div>
+<div class="absolute bottom-6 left-6 right-6">
+<p class="text-platinum/50 text-xs font-bold uppercase tracking-widest mb-1">2022</p>
+<h4 class="text-platinum text-2xl font-serif font-bold">Ferrari Daytona SP3</h4>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="group relative overflow-hidden rounded-lg bg-white/[0.02] border border-white/5">
+<div class="aspect-[4/5] relative">
+<img class="w-full h-full object-cover grayscale transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0" data-alt="Luxury car rear detail with dramatic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_zpOk4-tVl0fffd78-cmC1z9dmszPIgCpSHBK9ZkbfyD3I7LlyQo7cP8YGh_iDWWUmwvgb7FmPlBHPzbKUx-EECbg7u6lAP47F1VafVNq10l2jX7TCbdPo91zpVUV5XRXv2eU6vqrHyIw4OyvnJDEfvBUZMhRWUZaBmivXH8f1XM521QhG7aVr10Yj6xrmm_Zgcb7uY_X-MbVxtoNSdxZp61SFurCX3sGAksw8s8KfhZsGvF5DYBhNdO53cSla4nAtS_ratP-0ujt"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent"></div>
+<div class="absolute top-4 left-4">
+<span class="bg-white/5 backdrop-blur-md border border-white/20 text-platinum/50 text-[10px] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded">
+                                [Locked]
+                            </span>
+</div>
+<div class="absolute bottom-6 left-6 right-6">
+<p class="text-platinum/50 text-xs font-bold uppercase tracking-widest mb-1">2023</p>
+<h4 class="text-platinum text-2xl font-serif font-bold">Bugatti Mistral</h4>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="group relative overflow-hidden rounded-lg bg-white/[0.02] border border-white/5">
+<div class="aspect-[4/5] relative">
+<img class="w-full h-full object-cover grayscale transition-all duration-700 group-hover:scale-110 group-hover:grayscale-0" data-alt="Detail of a classic silver Porsche engine or body" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLd4dKySCWIeOFNOwLgUCg_-ZfL1G7vryTAb0AL4tp0nggp9oe0G-7wf6jqCPU6vRGu6ZyZSrdGZJSXkswsq46Zp19hzL2FWWvgmvPA_VsbvB4K2xumNCkKzQ1KCME-_yaINUyuVTKCSPdN6XE-Wsuk7cbQkHrEqcAlVKllW1eGNHcqPPjfCViEemNziY-dfOa3cyr7-P8pLIQaSGd2pdhEQfUpoDdJfqCvVWEJvChz7nx_or6KHnRm8CgseYRWW9908Kd0njhEd28"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent"></div>
+<div class="absolute top-4 left-4">
+<span class="bg-primary/20 backdrop-blur-md border border-primary/50 text-primary text-[10px] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded">
+                                [Acquired]
+                            </span>
+</div>
+<div class="absolute bottom-6 left-6 right-6">
+<p class="text-platinum/50 text-xs font-bold uppercase tracking-widest mb-1">1992</p>
+<h4 class="text-platinum text-2xl font-serif font-bold">Porsche 911 (964) Turbo S</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Contact CTA Section -->
+<div class="bg-background-dark py-24 border-t border-white/5">
+<div class="max-w-[800px] mx-auto px-6 text-center">
+<h2 class="text-platinum text-4xl md:text-5xl font-serif italic mb-6">Enter the Vault</h2>
+<p class="text-platinum/60 text-lg mb-12">Access to the Vanguard portfolio is by invitation only. Please submit your credentials for a private consultation.</p>
+<div class="bg-white/[0.03] border border-white/10 p-2 rounded-lg flex flex-col md:flex-row gap-2 max-w-md mx-auto">
+<input class="flex-1 bg-transparent border-none text-platinum placeholder:text-platinum/30 focus:ring-0 px-4 py-3" placeholder="Professional Email Address" type="email"/>
+<button class="bg-primary text-background-dark px-8 py-3 rounded text-xs font-bold uppercase tracking-widest hover:bg-primary/90 transition-all">
+                    Inquire
+                </button>
+</div>
+</div>
+</div>
+<!-- Footer -->
+<footer class="bg-background-dark py-12 border-t border-white/5">
+<div class="max-w-[1200px] mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex items-center gap-3">
+<h2 class="text-white/40 text-lg font-serif uppercase tracking-[0.2em]">Vanguard Motors Agency</h2>
+</div>
+<div class="flex gap-8">
+<a class="text-white/30 hover:text-primary text-[10px] uppercase tracking-widest transition-colors" href="#">Privacy Policy</a>
+<a class="text-white/30 hover:text-primary text-[10px] uppercase tracking-widest transition-colors" href="#">Terms of Engagement</a>
+<a class="text-white/30 hover:text-primary text-[10px] uppercase tracking-widest transition-colors" href="#">Institutional Portal</a>
+</div>
+<p class="text-white/20 text-[10px] uppercase tracking-[0.2em]">© 2024 VMA - Geneva • London • Dubai</p>
+</div>
+</footer>
+</body></html>
